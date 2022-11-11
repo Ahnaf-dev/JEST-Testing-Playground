@@ -9,12 +9,16 @@ function camelCase(string) {
         return word;
       }
 
-      const capitalizedWord = word[0].toUpperCase() + word.slice(1);
+      const capitalizedWord = capitalize(word);
       return capitalizedWord;
     })
     .join("");
 
   return camelCased;
+}
+
+function capitalize(word) {
+  return word[0].toUpperCase() + word.slice(1);
 }
 
 module.exports = camelCase;

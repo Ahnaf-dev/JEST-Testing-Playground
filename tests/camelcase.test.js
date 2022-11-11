@@ -1,4 +1,4 @@
-const camelCase = require("./camelCase");
+const camelCase = require("../src/camelCase/camelCase");
 
 describe("camelCase", () => {
   describe("when string such as border is given", () => {
