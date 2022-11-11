@@ -1,0 +1,15 @@
+const camelCase = require("./camelCase");
+
+describe("camelCase", () => {
+  describe("when string such as text-transform is given", () => {
+    it("should return textTransform", () => {
+      expect(camelCase("text-transform")).toBe("textTransform");
+    });
+  });
+
+  describe("when string such as border-color-red is given", () => {
+    it("should return borderColorRed", () => {
+      expect(camelCase("border-color-red")).toBe("borderColorRed");
+    });
+  });
+});

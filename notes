@@ -1,0 +1,30 @@
+Problems with manual testing
+
+- Too repetitive (not following DRY principle).
+- Can forget and leave behind unused code that you only used for testing.
+- Too many console.logs.
+
+Benefits of automated testing
+
+- Follows DRY principle (don't repeat yourself).
+- Ensures code work as expected.
+- Easier to refactor code later on.
+- Offers faster feedback in a descriptive and readable way.
+- Test files seperate from real code.
+
+Test Suite
+
+- A container for multiple tests related to that specific container context.
+
+Unit Tests
+
+- Write unit tests for code that has a specific purpose.
+
+Test-Driven Development
+
+- write failing test cases first (red), make test pass (green), refactor code (refactor), repeat.
+
+Best Practices
+
+- describe unit to be tested, describe various conditions and how code is expected to work under each condition.
+- scale test conditions gradually from simple to complex.
