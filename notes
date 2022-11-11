@@ -28,3 +28,8 @@ Best Practices
 
 - describe unit to be tested, describe various conditions and how code is expected to work under each condition.
 - scale test conditions gradually from simple to complex.
+
+beforeEach
+
+- follows DRY principle (don't repeat setting a variable multiple times)
+- decare variable at top of test suite then assign it in beforeEach function so each test has access to the variable (non-mutative)
