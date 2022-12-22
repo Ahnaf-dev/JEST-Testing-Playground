@@ -29,6 +29,11 @@ Best Practices
 - describe unit to be tested, describe various conditions and how code is expected to work under each condition.
 - scale test conditions gradually from simple to complex.
 
+Guiding Principles
+
+- Focus on high value components/functions.
+- Test in the way a user would use the app. Test all user interactions to ensure they work as expected.
+
 beforeEach
 
 - follows DRY principle (don't repeat setting a variable multiple times)
